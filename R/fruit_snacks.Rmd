@@ -14,10 +14,8 @@ set.seed(33377561)
 ```
 
 ```{r load_package, include=FALSE}
-# load R/broman package (from CRAN)
-if(!require(broman)) {
-    install.packages("broman", repos="https://cran.rstudio.com")
-}
+# load R/broman package
+library(broman)
 ```
 
 ```{r load_data}
