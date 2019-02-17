@@ -14,8 +14,10 @@ set.seed(33377561)
 ```
 
 ```{r load_package, include=FALSE}
-# load R/broman package
-library(broman)
+# load R/broman package (at https://github.com/kbroman/broman)
+if(!require(broman)) {
+    install.packages("broman", repos="https://cran.rstudio.com")
+}
 ```
 
 
@@ -28,7 +30,7 @@ describing my analysis of the
 on high-level results and suppressed discussion of the details of my
 analyses. In the present document, I'll describe some of the tricks I used.
 
-We can load the data directly from the web with `read.csv()`.
+We can load the data with `read.csv()`.
 
 ```{r load_data}
 fs <- read.csv("../Data/fruit_snacks.csv")
