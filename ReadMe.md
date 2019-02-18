@@ -1,6 +1,6 @@
 ### Data on fruit snacks
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kbroman/FruitSnacksBinder/master?urlpath=rstudio)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/kbroman/FruitSnacksBinder/description?urlpath=rstudio)
 
 My kids and I like
 [Welch's fruit snacks](https://www.welchsfruitsnacks.com/). We buy them

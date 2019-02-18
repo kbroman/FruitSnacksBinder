@@ -1,0 +1,14 @@
+Title: Fruit Snacks
+Version: 0.1
+Date: 2019-02-18
+Description: Fruit Snacks project arranged for myBinder.org
+Author: Karl W Broman <broman@wisc.edu>
+Depends:
+    R (>= 3.5.0)
+Imports:
+    broman,
+    knitr,
+    rmarkdown,
+    caTools,
+    bitops,
+    rprojroot
